@@ -2,9 +2,9 @@ body {
   margin: 10px;
 }
 
-p {
+/* p {
   color: orange;
-}
+} */
 
 /* this can refer to the "a" element that has target in it we can further specify to 
 by equating target to "_blank" */
@@ -17,6 +17,26 @@ by equating target to "_blank" */
   color: black;
 } */
 
-a[href^="https"][href$=".com"] {
+/* a[href^="https"][href$=".com"] {
   color: blue;
+} */
+
+article :last-child {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: darkgreen;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+  font-weight: bold;
 }
