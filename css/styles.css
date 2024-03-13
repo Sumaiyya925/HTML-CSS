@@ -55,3 +55,16 @@ span.firstletter {
 p::before {
   content: "latin language:";
 }
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: gold;
+  box-shadow: 0 0 30px grey;
+}
+
+h3 {
+  color: white;
+  font-style: italic;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
