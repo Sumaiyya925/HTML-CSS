@@ -5,3 +5,18 @@ body {
 p {
   color: orange;
 }
+
+/* this can refer to the "a" element that has target in it we can further specify to 
+by equating target to "_blank" */
+/* a[target] {
+  color: brown;
+} */
+
+/* a[href="https://google.com"]
+{
+  color: black;
+} */
+
+a[href^="https"][href$=".com"] {
+  color: blue;
+}
