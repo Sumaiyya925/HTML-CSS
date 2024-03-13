@@ -40,3 +40,18 @@ a:focus {
   color: deeppink;
   font-weight: bold;
 }
+
+span.firstletter {
+  font-weight: bold;
+}
+
+::first-line {
+  font-weight: bold;
+}
+::selection {
+  background-color: lightcoral;
+}
+
+p::before {
+  content: "latin language:";
+}
