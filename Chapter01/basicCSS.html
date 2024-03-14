@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- EXTERNAL STYLESHEET -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      /* but it's overwriting (embedded stylesheet) */
+      p {
+        color: black;
+      }
+
+      #first {
+        color: aqua;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- in-line stylesheet either we can use style as in-line but it's not preferable
+    instead se can use identifier -->
+    <p style="color: orange; font-weight: bold">
+      Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <a href="https://google.com" target="_blank">GOOGLE</a>
+  </body>
+</html>
