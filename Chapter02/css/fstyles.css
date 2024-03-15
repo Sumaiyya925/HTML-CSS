@@ -1,0 +1,24 @@
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: aqua;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.tweet {
+  border: 3px solid black;
+  /* overflow property is not a good solution */
+  overflow: hidden;
+}
+
+/* .clearfix::after {
+  making dynamically div by making it a block level element
+  content: "";
+  display: block;
+  clear: both;
+} */
+
+.clear {
+  clear: both;
+}
