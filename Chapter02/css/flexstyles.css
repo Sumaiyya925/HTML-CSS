@@ -1,0 +1,33 @@
+.container {
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  /* for horizontal axis */
+  justify-content: center;
+  /*for vertical axis, in this case height is short so increase the height 
+  of the container  */
+  align-items: center;
+  flex-wrap: wrap;
+  /* 90% of the viewport (height) */
+  /* by increasing the no of boxes ,position is distured so we use align content 
+  that works only if we have multiple elements */
+  align-content: center;
+  height: 90vh;
+}
+.box {
+  /* sizing elements
+  flex-basis(initializes the size)
+  flex-grow(grow factor)
+  flex-shrink(opposite to flex-grow) */
+
+  /* since flex-direction is set as for rows so flex-basis adjusts the size within
+  the rows */
+  /* flex-basis: 10rem;
+  flex-grow: 1;
+  flex-shrink: 1; */
+  flex: 1 1 10rem;
+  height: 5rem;
+  width: 5rem;
+  background-color: gold;
+  margin: 10px;
+}
