@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Project\ Images/body_bg.png);
+}
+.mainBody {
+  padding: 2rem 12rem;
+  margin: 0 8rem;
+  height: 100%;
+  width: fit-content;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.navPrimary {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  border-bottom: 2px solid #dedede;
+  /* padding-bottom: 2px; */
+  width: 100%;
+}
+.logo {
+  margin: 6px 0 0 0;
+  border-right: 2px solid #dedede;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.logo:hover,
+.banner:hover,
+.secondaryItems:hover {
+  cursor: pointer;
+}
+
+.banner {
+  margin: 6px 0px 0 0;
+}
+
+.mainlogo {
+  border-left: 2px solid #dedede;
+  padding-left: 10px;
+  box-shadow: 0 0 30px #919090;
+}
+
+.specialIcon {
+  transition: 0.2s;
+}
+
+.specialIcon:hover {
+  transform: translateY(4px);
+}
+
+.navSecondary {
+  display: flex;
+  padding-top: 5px;
+}
+
+.icon {
+  height: 40px;
+}
+
+.secondaryItems {
+  width: 8rem;
+  height: 6rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s;
+}
+.color {
+  background-color: #919191;
+  border-bottom-left-radius: 6px;
+  border-bottom: 7px solid #919191;
+}
+.paragraph {
+  margin: 0px;
+}
+
+.main {
+  color: white;
+}
+
+.Pokedex {
+  border-bottom: 7px solid #e3350d;
+  color: #6d7e91;
+}
+
+.Games {
+  border-bottom: 7px solid #ee6b2f;
+  color: #8d7168;
+}
+
+.cards {
+  border-bottom: 7px solid #e6bc2f;
+  color: #8d7168;
+}
+
+.animation {
+  border-bottom: 7px solid #4dad5b;
+  color: #8d7168;
+}
+
+.play {
+  border-bottom: 7px solid #30a7d7;
+  color: #8d7168;
+}
+
+.news {
+  border-bottom: 7px solid #1b53ba;
+  border-bottom-right-radius: 6px;
+  color: #8d7168;
+}
+
+.Pokedex:hover {
+  background-color: #e3350d;
+  color: white;
+}
+
+.Games:hover {
+  background-color: #ee6b2f;
+  color: white;
+}
+
+.cards:hover {
+  background-color: #e6bc2f;
+  color: white;
+}
+
+.animation:hover {
+  background-color: #4dad5b;
+  color: white;
+}
+
+.play:hover {
+  background-color: #30a7d7;
+  color: white;
+}
+
+.news:hover {
+  background-color: #1b53ba;
+  color: white;
+}
+
+/* STICKER */
+.sticker {
+  height: 8rem;
+  width: 3rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 15px 15px 0;
+  overflow: hidden;
+  position: fixed;
+  top: 28%;
+  left: 8.3%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+  width: 100%;
+  background-color: #4cc25d;
+  color: white;
+}
+
+.login:hover {
+  background-color: #369143;
+  cursor: pointer;
+}
+
+.loginIcon {
+  width: 2rem;
+}
+.loginText {
+  padding: 0;
+  margin: 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #575757;
+  height: 35%;
+}
+
+.searchIcon {
+  width: 30px;
+}
+
+.search:hover {
+  background-color: #30a7d7;
+  cursor: pointer;
+}
