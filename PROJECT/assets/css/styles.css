@@ -21,12 +21,6 @@ body {
   padding-bottom: 2px;
   width: 100%;
 }
-/* .logo {
-  margin: 6px 0 0 0;
-  border-right: 2px solid #dedede;
-  padding-right: 10px;
-  padding-left: 10px;
-} */
 
 .LOGO1 {
   margin: 6px 0 0 0;
@@ -72,20 +66,6 @@ body {
 .banner {
   margin: 6px 0px 0 0;
 }
-/* 
-.mainlogo {
-  border-left: 2px solid #dedede;
-  padding-left: 10px;
-  box-shadow: 0 0 30px #919090;
-}
-
-.specialIcon {
-  transition: 0.2s;
-}
-
-.specialIcon:hover {
-  transform: translateY(4px);
-} */
 
 .navSecondary {
   display: flex;
@@ -184,7 +164,7 @@ body {
 /* STICKER */
 .sticker {
   z-index: 1;
-  height: 8rem;
+  height: 10rem;
   width: 3rem;
   border: 2px solid black;
   display: flex;
@@ -205,6 +185,7 @@ body {
   width: 100%;
   background-color: #4cc25d;
   color: white;
+  font-weight: bold;
 }
 
 .login:hover {
@@ -218,6 +199,7 @@ body {
 .loginText {
   padding: 0;
   margin: 0;
+  margin-top: 5px;
 }
 
 .search {
@@ -969,7 +951,7 @@ body {
   transition: 0.2s;
   margin-top: -13px;
 }
-.scarlet-violet2 {
+.scarlet-violet2:hover {
   transform: translateY(4px);
   cursor: pointer;
 }
@@ -1108,7 +1090,6 @@ footer {
   width: 850px;
   height: 18rem;
   margin-left: -18px;
-  /* border: 3px solid white; */
 }
 
 .signup {
@@ -1266,7 +1247,6 @@ footer {
   display: flex;
   justify-content: center;
   border-right: 3px solid black;
-  /* margin-top: 2rem; */
   flex: 1;
 }
 
