@@ -1,0 +1,682 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+body {
+  margin: 0 0 5rem 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  width: 100%;
+}
+.navBar {
+  background-color: black;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  border-bottom: 1px solid #333335;
+  justify-content: space-between;
+}
+
+.menuBtn {
+  display: none;
+  margin-right: 20px;
+  height: 4rem;
+  width: 4rem;
+}
+
+.mainLogo {
+  height: 2rem;
+  width: 7.9rem;
+  margin-top: 15px;
+  margin-left: 16px;
+}
+
+.List {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listContent {
+  list-style-type: none;
+  padding-right: 36px;
+  color: #cdcbd4;
+  margin-top: 18px;
+}
+/* HOME PAGE */
+
+.Image {
+  height: 70vh;
+  width: 70vh;
+}
+
+.homePage {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  padding: 4rem 0 4rem 0;
+  max-width: 100%;
+}
+
+.homePage-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 4rem;
+}
+
+.homePage-heading {
+  color: white;
+  font-size: 4rem;
+  line-height: 70px;
+}
+
+.homePage-text {
+  color: #adabb6;
+  font-size: 20px;
+}
+
+.homePage-btn {
+  color: white;
+  background-color: #ff3400;
+  padding: 19px;
+  border-radius: 25px;
+  width: 12rem;
+  border: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.domainPricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 10px;
+}
+
+.domainHeading {
+  color: #1b0760;
+  font-size: 40px;
+}
+
+.domainText {
+  color: rgb(137, 132, 132);
+  font-size: 18px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  box-shadow: 0 0 50px rgb(191, 186, 186);
+  border-radius: 50px;
+  width: 45vw;
+}
+.input {
+  flex: 1;
+  width: 2rem;
+  outline: 0;
+  padding: 1.5rem 2rem;
+  border: 0;
+  border-radius: 50px;
+}
+.input::placeholder {
+  color: rgb(137, 132, 132);
+}
+
+.searchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3400;
+  border-radius: 50px;
+  padding: 1rem;
+  margin-right: 5px;
+  border: 0;
+  height: 3.5rem;
+  width: 10rem;
+  gap: 5px;
+}
+.searchLogo {
+  height: 2rem;
+  width: 1.5rem;
+}
+.btnText {
+  color: white;
+  font-weight: bold;
+}
+.prices {
+  margin-top: 20px;
+  display: flex;
+}
+.price {
+  margin: 20px;
+  font-weight: bold;
+  color: #1b0760;
+  font-size: 18px;
+}
+.specialPrice {
+  background-color: #00d9ff;
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.cards {
+  margin-top: 8rem;
+  display: flex;
+  flex: 1;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 20rem;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardHeader {
+  background-color: #00d9ff;
+  padding: 25px;
+  color: white;
+  height: 7rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.specialCard {
+  height: 30rem;
+}
+.specialHeader {
+  background-color: #2584ff;
+  padding-bottom: 43px;
+}
+
+.specialList2 {
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+.specialSpan {
+  background-color: #286cc4;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 5px;
+  padding: 5px;
+}
+.span {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.span2 {
+  background-color: #46c3d9;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 5px;
+  padding: 5px;
+}
+.cardList {
+  padding-top: 40px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.cardList li::before {
+  content: "\2713\0020";
+  color: #00d9ff;
+}
+
+.cardlistItems {
+  padding-bottom: 16px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.cardBtn {
+  border: 2px solid #1b0760;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 50px;
+  width: 13rem;
+  color: #1b0760;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.cardBtn:hover {
+  background-color: #1b0760;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cloudHeading {
+  color: #1b0760;
+  font-weight: bold;
+  margin-top: 6rem;
+  font-size: 43px;
+  text-align: center;
+}
+
+.cloudText {
+  color: rgb(115, 111, 111);
+  text-align: center;
+}
+
+/* BLOCKS */
+
+.block1,
+.block2,
+.block3,
+.block4 {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+.blockContent1,
+.blockContent2,
+.blockContent3,
+.blockContent4 {
+  width: 40%;
+}
+
+.img1,
+.img2,
+.img4 {
+  /* height: 100%; */
+  /* width: 100%; */
+  width: 28rem;
+  height: 17rem;
+}
+
+.img3 {
+  width: 25rem;
+  height: 15rem;
+}
+.blockLogo {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 5px;
+}
+
+.blockHeading {
+  color: #1b0760;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.blockText {
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(115, 111, 111);
+}
+
+.text2 {
+  margin-top: 10px;
+  color: #ff3400;
+  font-weight: bold;
+}
+
+.text2:hover {
+  cursor: pointer;
+}
+
+/* control panel */
+
+.controlPanel {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+  margin-top: 8rem;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
+}
+
+.panelHeading {
+  color: white;
+  font-weight: bold;
+  margin: 4rem;
+  font-size: 38px;
+}
+
+.panelImage {
+  width: 55%;
+}
+
+.panelImg {
+  height: 100%;
+  width: 100%;
+  margin-top: -3rem;
+}
+
+.panelContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.panelText {
+  width: 50%;
+}
+
+.panelText1 {
+  margin-top: 2rem;
+  display: flex;
+  padding-bottom: 4rem;
+}
+
+.snapIcon {
+  height: 4rem;
+  width: 3rem;
+  margin-top: -34px;
+}
+
+.mediaBody {
+  padding: 0 1rem;
+}
+.mediaTitle {
+  color: white;
+  font-size: 25px;
+  margin-top: -2rem;
+}
+
+.mediaText {
+  margin-top: 0.5rem;
+  color: #6b838b;
+  width: 70%;
+  font-size: 18px;
+}
+
+.panelImage {
+  padding: 40px;
+}
+
+.testimonialHeading {
+  color: #1b0760;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+.testimonialText1 {
+  text-align: center;
+  color: rgb(115, 111, 111);
+}
+/* MEDIA QUERRY */
+/* MEDIA QUERRY */
+/* MEDIA QUERRY */
+/* MEDIA QUERRY */
+
+@media screen and (max-width: 1030px) {
+  .card {
+    width: 16rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .Image {
+    height: 50vh;
+    width: 50vh;
+    margin-left: 0px;
+  }
+  .homePage-heading {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+
+  .homePage-text {
+    font-size: 18px;
+  }
+
+  .domainHeading {
+    font-size: 35px;
+  }
+  .domainText {
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .prices {
+    display: flex;
+    gap: 14rem;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+  .rowPrice1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .rowPrice2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 30px;
+    gap: 4rem;
+  }
+
+  .card {
+    width: 25rem;
+  }
+
+  .img1,
+  .img2 {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .img3 {
+    width: 17rem;
+    height: 13rem;
+  }
+  .img4 {
+    height: 15rem;
+    width: 20rem;
+  }
+
+  .block1,
+  .block2,
+  .block3,
+  .block4 {
+    padding-bottom: 5rem;
+    margin: 10px;
+  }
+
+  .blockText {
+    font-size: 14px;
+  }
+
+  .panelImg {
+    width: 100%;
+    height: 40%;
+  }
+
+  .mediaText {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .listContent {
+    display: none;
+  }
+  .List {
+    display: none;
+  }
+  .menuBtn {
+    display: inline-block;
+  }
+  .homePage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homePage-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    gap: 1rem;
+  }
+
+  .homePage-heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .Image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .prices {
+    gap: 2rem;
+  }
+  .price {
+    font-size: 20px;
+  }
+  .domainHeading {
+    font-size: 30px;
+  }
+
+  .cards {
+    margin: 20px;
+    gap: 4rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cardBtn {
+    width: 10rem;
+  }
+
+  .cardlistItems {
+    font-size: 14px;
+  }
+  .cloudHeading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cloudText {
+    text-align: center;
+  }
+
+  .block1,
+  .block2,
+  .block3,
+  .block4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .block2,
+  .block4 {
+    flex-direction: column-reverse;
+  }
+
+  .blockImage1,
+  .blockImage2,
+  .blockImage3,
+  .blockImage4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .blockContent1,
+  .blockContent2,
+  .blockContent3,
+  .blockContent4 {
+    width: 96%;
+    margin: 6px;
+  }
+
+  .blockHeading {
+    font-size: 25px;
+  }
+
+  .blockText {
+    font-size: 13px;
+  }
+
+  .img1,
+  .img2,
+  .img4 {
+    object-fit: contain;
+    height: 270px;
+    width: 270px;
+  }
+
+  .img3 {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .panelHeading {
+    text-align: center;
+  }
+  .panelContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .panelImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+
+  .panelImg {
+    height: 140%;
+    width: 140%;
+  }
+
+  .panelText {
+    width: 100%;
+  }
+
+  .mediaText {
+    font-size: 13px;
+  }
+  .panelContent {
+    padding: 10px;
+  }
+
+  .panelHeading {
+    font-size: 30px;
+  }
+}
