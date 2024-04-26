@@ -27,7 +27,7 @@
     >
       <div class="flex w-full">
         <img
-          class="h-[4rem] w-[7.8rem] p-[20px]"
+          class="h-[4rem] w-[7.8rem] p-[20px] hover:cursor-pointer"
           src="images/upwork logo.png"
           alt=""
         />
@@ -83,7 +83,7 @@
         </p>
 
         <button
-          class="bg-lime-600 rounded-[50px] mr-[6px] ml-[5px] h-[85%] w-[12%] pb-[5px] mt-[4px] text-white"
+          class="bg-[#108A00] hover:bg-lime-600 hover:border-2 hover:border-lime-600 rounded-[50px] mr-[6px] ml-[5px] h-[85%] w-[12%] pb-[5px] mt-[4px] text-white"
         >
           Sign up
         </button>
@@ -92,22 +92,36 @@
 
     <div class="hidden lg:flex w-full h-full p-[20px]">
       <ul class="flex">
-        <li class="text-black font-semibold text-[14px] pr-[26px]">
+        <li
+          class="text-black transition-colors duration-20000 hover:underline hover:text-lime-600 hover:cursor-pointer font-semibold text-[14px] pr-[26px]"
+        >
           Development & IT
         </li>
-        <li class="text-black font-semibold text-[14px] pr-[26px]">
+        <li
+          class="text-black transition-colors duration-20000 hover:underline hover:text-lime-600 hover:cursor-pointer font-semibold text-[14px] pr-[26px]"
+        >
           AI Services
         </li>
-        <li class="text-black font-semibold text-[14px] pr-[26px]">
+        <li
+          class="text-black transition-colors duration-20000 hover:underline hover:text-lime-600 hover:cursor-pointer font-semibold text-[14px] pr-[26px]"
+        >
           Design & Creative
         </li>
-        <li class="text-black font-semibold text-[14px] pr-[26px]">
+        <li
+          class="text-black transition-colors duration-20000 hover:underline hover:text-lime-600 hover:cursor-pointer font-semibold text-[14px] pr-[26px]"
+        >
           Sales & Marketing
         </li>
-        <li class="text-black font-semibold text-[14px] pr-[26px]">
+        <li
+          class="text-black transition-colors duration-20000 hover:underline hover:text-lime-600 hover:cursor-pointer font-semibold text-[14px] pr-[26px]"
+        >
           Admin & Customer Support
         </li>
-        <li class="text-black font-semibold text-[14px] pr-[26px]">More</li>
+        <li
+          class="text-black transition-colors duration-20000 hover:underline hover:text-lime-600 hover:cursor-pointer font-semibold text-[14px] pr-[26px]"
+        >
+          More
+        </li>
       </ul>
     </div>
 
@@ -152,7 +166,7 @@
           </p>
 
           <button
-            class="text-white bg-[#108A00] w-[35%] p-[10px] rounded-[50px] mt-[35px] font-semibold"
+            class="text-white hover:bg-lime-600 bg-[#108A00] w-[35%] p-[10px] rounded-[50px] mt-[35px] font-semibold"
           >
             Get Started
           </button>
@@ -192,9 +206,9 @@
 
     <div class="lg: flex lg:justify-center lg:items-center">
       <div class="flex flex-col h-full lg:w-[70%] mt-[4rem] md:flex-row">
-        <div class="flex items-center lg:w-full lg:h-full">
+        <div class="flex items-center">
           <img
-            class="p-[30px] lg:w-full lg:h-full"
+            class="p-[30px] lg:w-[100%] lg:h-[60%]"
             src="images/homapagevideo.PNG"
             alt=""
           />
@@ -202,12 +216,12 @@
 
         <div class="flex flex-col w-full">
           <h1
-            class="text-[#181818] text-[40px] leading-[45px] tracking-tighter mt-[6px] pl-[1rem]"
+            class="text-[#181818] lg:w-[100%] text-[40px] leading-[45px] tracking-tighter mt-[6px] pl-[1rem]"
           >
             Up your work game, it's easy
           </h1>
           <div
-            class="flex w-full h-full pl-[15px] gap-[10px] mt-[25px] pb-[10px]"
+            class="flex w-full lg:w-[100%] h-full pl-[15px] gap-[10px] mt-[25px] pb-[10px]"
           >
             <img
               class="h-[1.5rem] w-[1.5rem] mt-[7px] ml-[10px]"
@@ -267,7 +281,7 @@
             class="flex justify-center items-center mt-[20px] md:justify-start md:pl-[25px] md:gap-[20px]"
           >
             <button
-              class="hidden hover:cursor-pointer md:block md:w-[40%] py-[7px] text-white bg-[#108A00] [#108A00] rounded-[40px] font-semibold border-2 border-[#108A00] py-[10px] w-[25%]"
+              class="hidden hover:cursor-pointer hover:bg-lime-600 hover:border-2 hover:border-lime-600 md:block md:w-[40%] py-[7px] text-white bg-[#108A00] rounded-[40px] font-semibold border-2 border-[#108A00] py-[10px] w-[25%]"
             >
               Sign up for free
             </button>
@@ -278,6 +292,133 @@
             </button>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- BROWSE TALENT BY CATEGORY -->
+
+    <div class="flex flex-col mt-[4rem]">
+      <h1
+        class="text-[#181818] text-[45px] leading-[50px] tracking-tight mt-[6px] pl-[1rem]"
+      >
+        Browse talent by category
+      </h1>
+      <span class="mt-[12px]">
+        <span class="text-[#676767] font-semibold p-[20px] pr-[0]"
+          >Looking for work?</span
+        >
+        <span
+          class="text-[#108A00] font-semibold underline hover:text-lime-600 hover:cursor-pointer"
+          >Browse jobs</span
+        >
+      </span>
+
+      <div class="flex flex-col">
+        <div class="pb-[15px]">
+          <p class="text-black hover:cursor-pointer font-semibold text-[25px] mt-[2rem] pl-[35px]">
+            Development & IT
+          </p>
+          <span class="flex hover:cursor-pointer mt-[3px] pl-[13px]">
+            <img
+              class="h-[2.2rem] w-[2.2rem] pl-[20px]"
+              src="images/star.svg"
+              alt=""
+            />
+
+            <span class="text-[#676767] mt-[4px] pl-[5px] font-semibold"
+              >4.85/5</span
+            >
+            <span class="text-[#676767] mt-[4px] pl-[4.3rem] font-semibold"
+              >1853 skills</span
+            >
+          </span>
+        </div>
+
+        <div class="pb-[15px]">
+          <p class="text-black hover:cursor-pointer font-semibold text-[25px] mt-[2rem] pl-[35px]">
+            AI Services
+          </p>
+          <span class="flex hover:cursor-pointer mt-[3px] pl-[13px]">
+            <img
+              class="h-[2.2rem] w-[2.2rem] pl-[20px]"
+              src="images/star.svg"
+              alt=""
+            />
+
+            <span class="text-[#676767] mt-[4px] pl-[5px] font-semibold"
+              >4.8/5</span
+            >
+            <span class="text-[#676767] mt-[4px] pl-[3rem] font-semibold"
+              >294 skills</span
+            >
+          </span>
+        </div>
+
+        <div class="pb-[15px]">
+          <p class="text-black hover:cursor-pointer font-semibold text-[25px] mt-[2rem] pl-[35px]">
+            Design & Creative
+          </p>
+          <span class="flex hover:cursor-pointer mt-[3px] pl-[13px]">
+            <img
+              class="h-[2.2rem] w-[2.2rem] pl-[20px]"
+              src="images/star.svg"
+              alt=""
+            />
+
+            <span class="text-[#676767] mt-[4px] pl-[5px] font-semibold"
+              >4.91/5</span
+            >
+            <span class="text-[#676767] mt-[4px] pl-[4.5rem] font-semibold"
+              >968 skills</span
+            >
+          </span>
+        </div>
+
+        <div class="pb-[15px]">
+          <p class="text-black hover:cursor-pointer font-semibold text-[25px] mt-[2rem] pl-[35px]">
+            Sales & Marketing
+          </p>
+          <span class="flex hover:cursor-pointer mt-[3px] pl-[13px]">
+            <img
+              class="h-[2.2rem] w-[2.2rem] pl-[20px]"
+              src="images/star.svg"
+              alt=""
+            />
+
+            <span class="text-[#676767] mt-[4px] pl-[5px] font-semibold"
+              >4.77/5</span
+            >
+            <span class="text-[#676767] mt-[4px] pl-[4.5rem] font-semibold"
+              >392 skills</span
+            >
+          </span>
+        </div>
+
+        <div class="pb-[15px]">
+          <p class="text-black hover:cursor-pointer font-semibold text-[25px] mt-[2rem] pl-[35px]">
+            Writing & Translation
+          </p>
+          <span class="flex hover:cursor-pointer mt-[3px] pl-[13px]">
+            <img
+              class="h-[2.2rem] w-[2.2rem] pl-[20px]"
+              src="images/star.svg"
+              alt=""
+            />
+
+            <span class="text-[#676767] mt-[4px] pl-[5px] font-semibold"
+              >4.92/5</span
+            >
+            <span class="text-[#676767] mt-[4px] pl-[7rem] font-semibold"
+              >505 skills</span
+            >
+          </span>
+        </div>
+
+        <span
+        class="text-[#108A00] p-[20px] font-semibold  hover:text-lime-600 hover:cursor-pointer"
+        >Show more(3)</span
+      >
+    </span>
       </div>
     </div>
   </body>
