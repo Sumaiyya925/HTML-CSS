@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upwork</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+          },
+        },
+      };
+    </script>
+    <style>
+      h1 {
+        font-family: Rza, Rza-fallback, Georgia, serif;
+      }
+    </style>
+  </head>
+  <body class="font-custom p-0 m-0">
+    <div
+      class="hidden lg:flex h-[100%] w-[100%] justify-between border-b border-b-gray-300"
+    >
+      <div class="flex w-full">
+        <img
+          class="h-[4rem] w-[7.8rem] p-[20px]"
+          src="images/upwork logo.png"
+          alt=""
+        />
+        <ul class="flex">
+          <li
+            class="p-[20px] pr-[5px] font-semibold text-black text-[14px] hover:text-lime-600 hover:cursor-pointer transition-colors duration-20000"
+          >
+            Find talent
+          </li>
+
+          <li
+            class="p-[20px] pr-[5px] font-semibold text-black text-[14px] hover:text-lime-600 hover:cursor-pointer transition-colors duration-20000"
+          >
+            Find work
+          </li>
+          <li
+            class="p-[20px] pr-[5px] font-semibold text-black text-[14px] hover:text-lime-600 hover:cursor-pointer transition-colors duration-20000"
+          >
+            Why Upwork
+          </li>
+
+          <li
+            class="p-[20px] pr-[5px] font-semibold text-black text-[14px] hover:text-lime-600 hover:cursor-pointer transition-colors duration-20000"
+          >
+            Enterprise
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex w-[100%] justify-end py-2.5">
+        <div
+          class="flex justify-center items-center border-[3px] hover:bg-gray-200 hover:cursor-pointer border-lightgray-400 rounded-[50px] h-[32px] px-[10px] mt-[7px]"
+        >
+          <img class="h-full w-[2rem]" src="images/navSearch.svg" alt="" />
+          <input
+            class="w-[100%] border-none h-[20px] outline-none hover:bg-gray-200 hover:cursor-pointer"
+            type="text"
+            placeholder="Search"
+            disabled
+          />
+        </div>
+
+        <button
+          class="flex justify-center items-center mt-[5px] text-[14px] font-semibold hover:bg-gray-200 hover:cursor-pointer border-[2.5px] border-lightgray-700 rounded-[50px] h-[32px] p-[10px] pl-[20px] pr-[40px]"
+        >
+          Talent
+        </button>
+
+        <p
+          class="text-black text-[14px] mt-[5px] font-semibold p-[5px] hover:cursor-pointer mr-[5px]"
+        >
+          Log in
+        </p>
+
+        <button
+          class="bg-lime-600 rounded-[50px] mr-[6px] ml-[5px] h-[85%] w-[12%] pb-[5px] mt-[4px] text-white"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
+
+    <div class="hidden lg:flex w-full h-full p-[20px]">
+      <ul class="flex">
+        <li class="text-black font-semibold text-[14px] pr-[26px]">
+          Development & IT
+        </li>
+        <li class="text-black font-semibold text-[14px] pr-[26px]">
+          AI Services
+        </li>
+        <li class="text-black font-semibold text-[14px] pr-[26px]">
+          Design & Creative
+        </li>
+        <li class="text-black font-semibold text-[14px] pr-[26px]">
+          Sales & Marketing
+        </li>
+        <li class="text-black font-semibold text-[14px] pr-[26px]">
+          Admin & Customer Support
+        </li>
+        <li class="text-black font-semibold text-[14px] pr-[26px]">More</li>
+      </ul>
+    </div>
+
+    <!-- tablet,mobile nav bar -->
+    <div
+      class="lg:hidden flex h-[100%] w-full justify-between border-b border-b-gray-300"
+    >
+      <div class="flex pb-[10px] mt-[8px] w-[100%]">
+        <img
+          class="h-[2.2rem] w-[3.5rem] pl-[10px]"
+          src="images/menuLogo.svg"
+          alt=""
+        />
+        <img
+          class="h-[2.2rem] w-[6rem] p-[5px] pl-[0]"
+          src="images/upwork logo.png"
+          alt=""
+        />
+      </div>
+
+      <div class="flex mt-[3px] w-full justify-end pr-[10px]">
+        <p class="text-black mt-[12px] font-semibold">Sign up</p>
+        <img class="h-full w-[2rem]" src="images/navSearch.svg" alt="" />
+      </div>
+    </div>
+
+    <!-- homepage -->
+
+    <div class="lg:flex lg:justify-center lg:items-center">
+      <div class="flex lg:w-[90%] w-full">
+        <div class="flex flex-col lg:w-[55%] w-full h-full p-[20px]">
+          <h1
+            class="text-[#14A800] lg:text-[70px] md:leading-[70px] text-[60px] leading-[65px] tracking-tighter mt-[20px]"
+          >
+            How work should work
+          </h1>
+          <p
+            class="text-[#676767] font-semibold tracking-tight text-[18px] mt-[15px]"
+          >
+            Forget the old rules.You can have the best people.Right now.Right
+            there
+          </p>
+
+          <button
+            class="text-white bg-[#108A00] w-[35%] p-[10px] rounded-[50px] mt-[35px] font-semibold"
+          >
+            Get Started
+          </button>
+
+          <span class="text-[#A5A5A5] font-semibold text-[18px] mt-[50px]"
+            >Trusted by</span
+          >
+
+          <div class="flex mt-[10px]">
+            <img
+              class="pr-[15px] h-[30%] w-[30%]"
+              src="images/microsoft.svg"
+              alt=""
+            />
+            <img
+              class="pr-[15px] w-[22%] mb-[50px]"
+              src="images/airbnb.svg"
+              alt=""
+            />
+            <img
+              class="pr-[15px] w-[18%] mb-[53px]"
+              src="images/bissell.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="md:w-[80%] md:h-[50%] md:mt-[6rem] lg:mt-[-2rem]">
+          <img
+            class="md:w-full hidden md:block md:h-full md:p-[20px] lg:p-[7rem]"
+            src="images/homepage.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="lg: flex lg:justify-center lg:items-center">
+      <div class="flex flex-col h-full lg:w-[70%] mt-[4rem] md:flex-row">
+        <div class="flex items-center lg:w-full lg:h-full">
+          <img
+            class="p-[30px] lg:w-full lg:h-full"
+            src="images/homapagevideo.PNG"
+            alt=""
+          />
+        </div>
+
+        <div class="flex flex-col w-full">
+          <h1
+            class="text-[#181818] text-[40px] leading-[45px] tracking-tighter mt-[6px] pl-[1rem]"
+          >
+            Up your work game, it's easy
+          </h1>
+          <div
+            class="flex w-full h-full pl-[15px] gap-[10px] mt-[25px] pb-[10px]"
+          >
+            <img
+              class="h-[1.5rem] w-[1.5rem] mt-[7px] ml-[10px]"
+              src="images/pinIcon.svg"
+              alt=""
+            />
+            <div class="flex flex-col pl-[10px]">
+              <p class="text-black font-semibold text-[20px]">
+                No cost to join
+              </p>
+              <p class="text-black mt-[5px] w-[95%]">
+                Register and browse professionals, explore projects, or even
+                book a consultation.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex w-full h-full pl-[15px] gap-[10px] mt-[25px] pb-[10px]"
+          >
+            <img
+              class="h-[1.5rem] w-[1.5rem] mt-[7px] ml-[10px]"
+              src="images/pinIcon.svg"
+              alt=""
+            />
+            <div class="flex flex-col pl-[10px]">
+              <p class="text-black font-semibold text-[20px]">
+                Post a job and hire top talent
+              </p>
+              <p class="text-black mt-[5px] w-[95%]">
+                Finding talent doesn’t have to be a chore. Post a job or we can
+                search for you!
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex w-full h-full pl-[15px] gap-[10px] mt-[25px] pb-[10px]"
+          >
+            <img
+              class="h-[1.5rem] w-[1.5rem] mt-[7px] ml-[10px]"
+              src="images/pinIcon.svg"
+              alt=""
+            />
+            <div class="flex flex-col pl-[10px]">
+              <p class="text-black font-semibold text-[20px] pr-[9px]">
+                Work with the best—without breaking the bank
+              </p>
+              <p class="text-black mt-[7px] w-[95%]">
+                Upwork makes it affordable to up your work and take advantage of
+                low transaction rates
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex justify-center items-center mt-[20px] md:justify-start md:pl-[25px] md:gap-[20px]"
+          >
+            <button
+              class="hidden hover:cursor-pointer md:block md:w-[40%] py-[7px] text-white bg-[#108A00] [#108A00] rounded-[40px] font-semibold border-2 border-[#108A00] py-[10px] w-[25%]"
+            >
+              Sign up for free
+            </button>
+            <button
+              class="text-[#108A00] md:w-[40%] hover:cursor-pointer rounded-[40px] font-semibold border-2 border-[#108A00] py-[7px] w-[87%] md:w-[25%]"
+            >
+              Learn how to hire
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
