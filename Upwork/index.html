@@ -517,15 +517,17 @@
     </div>
 
     <div
-      class="mt-[4rem] md:m-[2rem] lg:flex lg:flex-row-reverse lg:mt-[5rem] lg:px-[6rem] lg:h-[80%]"
+      class="mt-[4rem] md:m-[2rem] lg:flex lg:flex-row-reverse lg:mt-[5rem] lg:px-[6rem] lg:h-[100%] lg:w-[100%] lg:m-0 items-stretch"
     >
-      <img
-        class="w-full h-full p-0 md:hidden lg:block lg:w-[50%] lg:h-[37rem] lg:rounded-r-lg lg:object-cover"
-        src="images/enterprise.webp"
-        alt=""
-      />
+      <div class="w-full p-0 md:hidden lg:flex lg:rounded-r-lg">
+        <img
+          class="w-full h-full object-cover lg:rounded-r-lg"
+          src="images/enterprise.webp"
+          alt=""
+        />
+      </div>
       <div
-        class="bg-[#13544E] h-full w-full md:rounded-[8px] lg:h-[37rem] lg:rounded-[0] lg:rounded-l-lg lg:w-[60%] md:p-[17px]"
+        class="bg-[#13544E] h-full w-full md:rounded-[8px] lg:h-[100%] lg:rounded-[0] lg:rounded-l-lg lg:w-[100%] md:px-[10px] py-[10px]"
       >
         <p class="text-white p-[1rem] pb-0 text-[25px] font-semibold">
           Enterprise Suite
@@ -550,7 +552,7 @@
           Access the top 1% of talent on Upwork, and a full suite of hybrid
           workforce management tools. This is how innovation works now.
         </p>
-        <div class="flex flex-col p-[1rem] gap-[10px] md:w-[70%]">
+        <div class="flex flex-col p-[1rem] gap-[5px] md:w-[70%] lg:w-full">
           <div class="flex">
             <img
               class="h-[1.3rem] w-[1.3rem] mt-[5px]"
@@ -591,160 +593,156 @@
       </div>
     </div>
 
-    <div class="relative md:hidden">
-      <img
-        class="mt-[3.5rem] h-full"
-        src="images/find-talent-mobile-2x.jpg"
-        alt=""
-      />
-      <div class="absolute top-0 left-0 right-0 pl-[15px] mt-[20px]">
-        <p class="text-[20px] tracking-tight text-white">For clients</p>
+    <div class="md:hidden mt-[5rem]">
+      <div
+        class="bg-[url('images/find-talent-mobile-2x.jpg')] bg-cover bg-no-repeat h-full"
+      >
+        <p class="text-[20px] tracking-tight p-[1.5rem] text-white">
+          For clients
+        </p>
         <h1
-          class="text-white text-[46px] leading-none mt-[6rem] w-[50%] tracking-tighter"
+          class="text-white text-[46px] w-full pl-[1.5rem] leading-none mt-[5rem] w-[50%] tracking-tighter"
         >
-          Find talent your way
+          Find talent <br />
+          your way
         </h1>
-        <p class="text-white mt-[15px] font-semibold text-[16.5px]">
+        <p
+          class="text-white mt-[15px] w-[100%] pl-[1.5rem] font-semibold text-[16.5px]"
+        >
           Work with the largest network of independent professionals and get
           things done—from quick turnarounds to big transformations.
         </p>
-        <div class="group">
+        <div class="flex flex-col justify-center items-center pb-[20px]">
           <div
-            class="bg-[#108A00] group-hover:bg-white rounded-[8px] mr-[20px] mt-[10px] flex"
+            class="flex w-[90%] mt-[1.5rem] rounded-[10px] bg-[#108A00] justify-between"
           >
             <p
-              class="text-white font-semibold group-hover:text-[#108A00] leading-[30px] pb-[20px] text-[24px] tracking-tight px-[20px] pb-0 pt-[3rem]"
+              class="text-white text-[23px] leading-[30px] font-semibold pt-[2.5rem] pb-[10px] pl-[1rem] tracking-tighter"
             >
               Post a job <br />
               and hire a pro
             </p>
-
-            <p
-              class="text-white font-semibold text-[14px] group-hover:text-[#108A00] tracking-tight mt-[5.2rem] pl-[2.5rem]"
-            >
-              Talent Marketplace
-            </p>
-            <img
-              class="mt-[5rem] w-[2rem] h-[2rem] pl-[10px]"
-              src="images/arrow.svg"
-              alt=""
-            />
+            <div class="flex pr-[5px] mt-[4rem]">
+              <p class="text-white mt-[10px]">Talent Marketplace</p>
+              <img
+                class="h-[1rem] w-[1rem] mt-[1rem]"
+                src="images/arrow.svg"
+                alt=""
+              />
+            </div>
           </div>
-        </div>
-        <div class="group">
+
           <div
-            class="bg-[#108A00] group-hover:bg-white rounded-[8px] mr-[20px] mt-[10px] flex"
+            class="flex w-[90%] mt-[1.5rem] rounded-[10px] bg-[#108A00] justify-between"
           >
             <p
-              class="text-white font-semibold group-hover:text-[#108A00] leading-[30px] pb-[20px] text-[24px] tracking-tight px-[20px] pb-0 pt-[3rem]"
+              class="text-white text-[23px] leading-[30px] font-semibold pt-[2.5rem] pb-[10px] pl-[1rem] tracking-tighter"
             >
-              Browse and <br />
-              buy projects
+              Browse and<br />
+              and buy projects
             </p>
-
-            <p
-              class="text-white font-semibold text-[14px] group-hover:text-[#108A00] tracking-tight mt-[5.2rem] pl-[5rem]"
-            >
-              Project Catalog
-            </p>
-            <img
-              class="mt-[5rem] w-[2rem] h-[2rem] pl-[10px]"
-              src="images/arrow.svg"
-              alt=""
-            />
+            <div class="flex pr-[5px] mt-[4rem]">
+              <p class="text-white mt-[10px]">Project Catalog</p>
+              <img
+                class="h-[1rem] w-[1rem] mt-[1rem]"
+                src="images/arrow.svg"
+                alt=""
+              />
+            </div>
           </div>
-        </div>
-        <div class="group">
+
           <div
-            class="bg-[#108A00] group-hover:bg-white rounded-[8px] mr-[20px] mt-[10px] flex"
+            class="flex w-[90%] mt-[1.5rem] rounded-[10px] bg-[#108A00] justify-between"
           >
             <p
-              class="text-white font-semibold group-hover:text-[#108A00] leading-[30px] pb-[20px] text-[24px] tracking-tight px-[20px] pb-0 pt-[3rem]"
+              class="text-white text-[23px] leading-[30px] font-semibold pt-[2.5rem] pb-[10px] pl-[1rem] tracking-tighter"
             >
-              Get advise from an industry expert
+              Get advice from <br />
+              an expert
             </p>
-
-            <p
-              class="text-white font-semibold text-[14px] group-hover:text-[#108A00] tracking-tight mt-[5.2rem] pr-[3px]"
-            >
-              Consultations
-            </p>
-            <img
-              class="mt-[5rem] w-[2rem] h-[2rem] pl-[10px] mr-[17px]"
-              src="images/arrow.svg"
-              alt=""
-            />
+            <div class="flex pr-[5px] mt-[4rem]">
+              <p class="text-white mt-[10px]">Consultations</p>
+              <img
+                class="h-[1rem] w-[1rem] mt-[1rem]"
+                src="images/arrow.svg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="relative hidden md:block">
-      <img
-        class="p-[35px] h-[40rem] object-cover"
-        src="images/find-talent-2x.jpg"
-        alt=""
-      />
-      <div class="absolute top-0 left-0 right-0 p-[4rem] mt-[20px]">
-        <p class="text-[20px] tracking-tight text-white">For clients</p>
-        <h1
-          class="text-white text-[46px] w-[50%] leading-none mt-[5rem] w-[50%] tracking-tighter"
-        >
-          Find talent <br />
-          your way
-        </h1>
-        <p class="text-white mt-[15px] w-[60%] font-semibold text-[16.5px]">
-          Work with the largest network of independent professionals and get
-          things done—from quick turnarounds to big transformations.
-        </p>
+    <div class="w-full h-full flex justify-center px-[6rem] mt-[2rem]">
+      <div
+        class="bg-[url('images/find-talent-2x.jpg')] lg:w-full rounded-[10px] bg-cover bg-no-repeat h-full lg:m-0 lg:mb-0 md:m-[2rem] md:mb-0 md:mt-[2rem] lg:mt-[2rem] mt-[2rem] hidden md:block md:bg-center"
+      >
+        <!-- <img
+          class="h-[40rem] object-cover"
+          src="images/find-talent-2x.jpg"
+          alt=""
+        /> -->
+        <div class="p-[2rem] mt-[20px]">
+          <p class="text-[25px] tracking-tight text-white">For clients</p>
+          <h1
+            class="text-white text-[70px] w-[50%] leading-[60px] mt-[5rem] w-[50%] tracking-tighter"
+          >
+            Find talent <br />
+            your way
+          </h1>
+          <p class="text-white mt-[19px] w-[40%] font-semibold text-[16.5px]">
+            Work with the largest network of independent professionals and get
+            things done—from quick turnarounds to big transformations.
+          </p>
 
-        <div class="flex mt-[2rem] gap-[18px] justify-center items-center">
-          <div class="bg-[#108A00] rounded-[10px]">
-            <p
-              class="text-white text-[23px] pr-[50px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
-            >
-              Post a job <br />
-              and hire a pro
-            </p>
-            <div class="flex">
-              <p class="text-white p-[10px]">Talent Marketplace</p>
-              <img
-                class="h-[1rem] w-[1rem] mt-[1rem]"
-                src="images/arrow.svg"
-                alt=""
-              />
+          <div class="flex mt-[2rem] gap-[22px] justify-center items-center">
+            <div class="bg-[#108A00] lg:px-[1rem] lg:pr-[4rem] rounded-[10px]">
+              <p
+                class="lg:w-full lg:text-[30px] text-white text-[23px] pr-[50px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+              >
+                Post a job <br />
+                and hire a pro
+              </p>
+              <div class="flex">
+                <p class="text-white p-[10px]">Talent Marketplace</p>
+                <img
+                  class="h-[1rem] w-[1rem] mt-[1rem]"
+                  src="images/arrow.svg"
+                  alt=""
+                />
+              </div>
             </div>
-          </div>
-          <div class="bg-[#108A00] rounded-[10px]">
-            <p
-              class="text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
-            >
-              Browse and<br />
-              and buy projects
-            </p>
-            <div class="flex">
-              <p class="text-white p-[10px]">Project Catalog</p>
-              <img
-                class="h-[1rem] w-[1rem] mt-[1rem]"
-                src="images/arrow.svg"
-                alt=""
-              />
+            <div class="bg-[#108A00] lg:pr-[4rem] rounded-[10px]">
+              <p
+                class="lg:w-full lg:px-[1rem] lg:text-[30px] text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+              >
+                Browse and<br />
+                and buy projects
+              </p>
+              <div class="flex">
+                <p class="text-white p-[10px]">Project Catalog</p>
+                <img
+                  class="h-[1rem] w-[1rem] mt-[1rem]"
+                  src="images/arrow.svg"
+                  alt=""
+                />
+              </div>
             </div>
-          </div>
-          <div class="bg-[#108A00] rounded-[10px]">
-            <p
-              class="text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
-            >
-              Get advice from <br />
-              an industry expert
-            </p>
-            <div class="flex">
-              <p class="text-white p-[10px]">consultations</p>
-              <img
-                class="h-[1rem] w-[1rem] mt-[1rem]"
-                src="images/arrow.svg"
-                alt=""
-              />
+            <div class="bg-[#108A00] lg:pr-[4rem] rounded-[10px]">
+              <p
+                class="lg:w-full lg:px-[1rem] lg:text-[30px] text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+              >
+                Get advice from <br />
+                an expert
+              </p>
+              <div class="flex">
+                <p class="text-white p-[10px]">consultations</p>
+                <img
+                  class="h-[1rem] w-[1rem] mt-[1rem]"
+                  src="images/arrow.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
