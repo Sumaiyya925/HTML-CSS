@@ -281,7 +281,7 @@
             class="flex justify-center items-center mt-[20px] md:justify-start md:pl-[25px] md:gap-[20px]"
           >
             <button
-              class="hidden hover:cursor-pointer hover:bg-lime-600 hover:border-2 hover:border-lime-600 md:block md:w-[40%] py-[7px] text-white bg-[#108A00] rounded-[40px] font-semibold border-2 border-[#108A00] py-[10px] w-[25%]"
+              class="hidden hover:cursor-pointer hover:bg-[#14A800] hover:border-2 hover:border-lime-600 md:block md:w-[40%] py-[7px] text-white bg-[#108A00] rounded-[40px] font-semibold border-2 border-[#108A00] py-[10px] w-[25%]"
             >
               Sign up for free
             </button>
@@ -298,20 +298,22 @@
     <!-- BROWSE TALENT BY CATEGORY -->
 
     <div class="flex flex-col mt-[4rem]">
-      <h1
-        class="text-[#181818] text-[45px] leading-[50px] tracking-tight mt-[6px] pl-[1rem]"
-      >
-        Browse talent by category
-      </h1>
-      <span class="mt-[12px]">
-        <span class="text-[#676767] font-semibold p-[20px] pr-[0]"
-          >Looking for work?</span
+      <div class="lg:pl-[2rem]">
+        <h1
+          class="text-[#181818] text-[45px] leading-[50px] tracking-tight mt-[6px] pl-[1rem]"
         >
-        <span
-          class="text-[#108A00] font-semibold underline hover:text-lime-600 hover:cursor-pointer"
-          >Browse jobs</span
-        >
-      </span>
+          Browse talent by category
+        </h1>
+        <span class="mt-[12px]">
+          <span class="text-[#676767] font-semibold p-[20px] pr-[0]"
+            >Looking for work?</span
+          >
+          <span
+            class="text-[#108A00] font-semibold underline hover:text-lime-600 hover:cursor-pointer"
+            >Browse jobs</span
+          >
+        </span>
+      </div>
 
       <div class="flex flex-col md:mt-[3rem] lg:gap-[5rem] lg:flex lg:flex-row">
         <div
@@ -677,11 +679,6 @@
       <div
         class="bg-[url('images/find-talent-2x.jpg')] lg:w-full rounded-[10px] bg-cover bg-no-repeat h-full lg:m-0 lg:mb-0 md:m-[2rem] md:mb-0 md:mt-[2rem] lg:mt-[2rem] mt-[2rem] hidden md:block md:bg-center"
       >
-        <!-- <img
-          class="h-[40rem] object-cover"
-          src="images/find-talent-2x.jpg"
-          alt=""
-        /> -->
         <div class="p-[2rem] mt-[20px]">
           <p class="text-[25px] tracking-tight text-white">For clients</p>
           <h1
@@ -695,56 +692,597 @@
             things done—from quick turnarounds to big transformations.
           </p>
 
-          <div class="flex mt-[2rem] gap-[22px] justify-center items-center">
-            <div class="bg-[#108A00] lg:px-[1rem] lg:pr-[4rem] rounded-[10px]">
-              <p
-                class="lg:w-full lg:text-[30px] text-white text-[23px] pr-[50px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+          <div class="flex mt-[2rem] gap-2 items-center w-full">
+            <div class="group flex-1">
+              <div
+                class="bg-[#108A00] hover:cursor-pointer group-hover:bg-white transition-colors duration-20000 rounded-[10px] lg:pr-2"
               >
-                Post a job <br />
-                and hire a pro
-              </p>
-              <div class="flex">
-                <p class="text-white p-[10px]">Talent Marketplace</p>
-                <img
-                  class="h-[1rem] w-[1rem] mt-[1rem]"
-                  src="images/arrow.svg"
-                  alt=""
-                />
+                <p
+                  class="lg:h-full lg:text-[30px] group-hover:text-[#108A00] transition-colors duration-20000 text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+                >
+                  Post a job<br />
+                  and hire a pro
+                </p>
+                <div class="flex">
+                  <p
+                    class="text-white p-[10px] group-hover:text-[#108A00] transition-colors duration-20000 ml-[5px]"
+                  >
+                    Target Marketplace
+                  </p>
+                  <img
+                    class="h-[1rem] w-[1rem] mt-[1rem]"
+                    src="images/arrow.svg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
-            <div class="bg-[#108A00] lg:pr-[4rem] rounded-[10px]">
-              <p
-                class="lg:w-full lg:px-[1rem] lg:text-[30px] text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+
+            <div class="group flex-1">
+              <div
+                class="bg-[#108A00] hover:cursor-pointer group-hover:bg-white transition-colors duration-20000 rounded-[10px] lg:pr-2"
               >
-                Browse and<br />
-                and buy projects
-              </p>
-              <div class="flex">
-                <p class="text-white p-[10px]">Project Catalog</p>
-                <img
-                  class="h-[1rem] w-[1rem] mt-[1rem]"
-                  src="images/arrow.svg"
-                  alt=""
-                />
+                <p
+                  class="lg:h-full lg:text-[30px] group-hover:text-[#108A00] transition-colors duration-20000 text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+                >
+                  Browse and<br />
+                  and buy projects
+                </p>
+                <div class="flex">
+                  <p
+                    class="text-white group-hover:text-[#108A00] transition-colors duration-20000 p-[10px] ml-[5px]"
+                  >
+                    Project Catalog
+                  </p>
+                  <img
+                    class="h-[1rem] w-[1rem] mt-[1rem]"
+                    src="images/arrow.svg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
-            <div class="bg-[#108A00] lg:pr-[4rem] rounded-[10px]">
-              <p
-                class="lg:w-full lg:px-[1rem] lg:text-[30px] text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+
+            <div class="group flex-1">
+              <div
+                class="bg-[#108A00] hover:cursor-pointer group-hover:bg-white transition-colors duration-20000 rounded-[10px] lg:pr-2"
               >
-                Get advice from <br />
-                an expert
-              </p>
-              <div class="flex">
-                <p class="text-white p-[10px]">consultations</p>
-                <img
-                  class="h-[1rem] w-[1rem] mt-[1rem]"
-                  src="images/arrow.svg"
-                  alt=""
-                />
+                <p
+                  class="lg:h-full lg:text-[30px] group-hover:text-[#108A00] transition-colors duration-20000 text-white text-[23px] leading-[30px] font-semibold px-[2rem] pl-[10px] pt-[14px] pb-[25px] tracking-tighter"
+                >
+                  Get advice<br />
+                  from an expert
+                </p>
+                <div class="flex">
+                  <p
+                    class="text-white p-[10px] group-hover:text-[#108A00] transition-colors duration-20000 ml-[5px]"
+                  >
+                    Consultations
+                  </p>
+                  <img
+                    class="h-[1rem] w-[1rem] mt-[1rem]"
+                    src="images/arrow.svg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lg:flex lg:justify-center lg:items-center">
+      <div
+        class="flex flex-col mt-[2rem] md:flex-row md:w-[100%] lg:px-[6rem] lg:w-full md:p-[3.5rem] md:relative"
+      >
+        <div class="lg:w-full">
+          <h1
+            class="text-[#181818] lg:text-[50px] text-[43px] leading-[50px] tracking-tight mt-[6px] md:mt-[5rem] pl-[1rem]"
+          >
+            Why businesses <br />
+            turn to Upwork
+          </h1>
+          <div class="flex flex-col md:w-[60%]">
+            <div class="flex p-[10px] mt-[10px]">
+              <img
+                class="w-[2.7rem] h-[2.7rem] p-[4px] pl-[20px]"
+                src="images/blackstar.svg"
+                alt=""
+              />
+              <div class="pl-[16px]">
+                <p class="text-black lg:text-[30px] font-semibold text-[26px]">
+                  Proof of Quality
+                </p>
+                <p class="text-[#5E6D55] font-semibold lg:text-[17px]">
+                  Check any pro’s work samples, client reviews, and identity
+                  verification.
+                </p>
+              </div>
+            </div>
+            <div class="flex p-[10px]">
+              <img
+                class="w-[2.7rem] h-[2.7rem] p-[4px] pl-[20px]"
+                src="images/blackstar.svg"
+                alt=""
+              />
+              <div class="pl-[16px]">
+                <p class="text-black font-semibold lg:text-[30px] text-[26px]">
+                  No cost until you hire
+                </p>
+                <p class="text-[#5E6D55] font-semibold lg:text-[17px]">
+                  Interview potential fits for your job, negotiate rates, and
+                  only pay for work you approve.
+                </p>
+              </div>
+            </div>
+            <div class="flex p-[10px]">
+              <img
+                class="w-[2.7rem] h-[2.7rem] p-[4px] pl-[20px]"
+                src="images/blackstar.svg"
+                alt=""
+              />
+              <div class="pl-[16px]">
+                <p class="text-black lg:text-[30px] font-semibold text-[26px]">
+                  Safe & Secure
+                </p>
+                <p class="text-[#5E6D55] font-semibold lg:text-[17px]">
+                  Focus on your work knowing we help protect your data and
+                  privacy. We’re here with 24/7 support if you need it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="hidden md:flex absolute lg:right-[410px] lg:top-[130px] md:right-[200px] md:top-[160px]"
+        >
+          <img
+            class="md:w-[330px] lg:w-full h-[470px]"
+            src="images/person-with-headset.webp"
+            alt=""
+          />
+        </div>
+        <div
+          class="bg-[#14A800] mt-[2rem] md:w-[80%] w-full lg:w-[50%] lg:pr-[2rem] md:rounded-[10px] md:p-0"
+        >
+          <div
+            class="flex md:mt-[17rem] w-[100%] lg:pl-[3rem] lg:pr-[2rem] lg:mt-[10rem]"
+          >
+            <div class="w-[100%] flex-1">
+              <p
+                class="mt-[2rem] p-[20px] text-white text-[35px] tracking-tighter leading-[38px] font-semibold"
+              >
+                We’re <br />
+                the world’s work <br />
+                marketplace
+              </p>
+
+              <div class="flex p-[20px]">
+                <img
+                  class="h-[1.4rem] w-[1.4rem]"
+                  src="images/white star.svg"
+                  alt=""
+                />
+                <div class="flex flex-col w-full">
+                  <span
+                    class="text-white text-[27px] pl-[10px] mt-[-7px] font-semibold"
+                    >4.9/5</span
+                  >
+                  <p
+                    class="text-white w-full md:w-full lg:w-full tracking-tight leading-[23px] text-[19px] pl-[10px]"
+                  >
+                    clients rate professionals on Upwork
+                  </p>
+                </div>
+              </div>
+              <div class="flex p-[20px]">
+                <img
+                  class="h-[1.4rem] w-[1.4rem]"
+                  src="images/white star.svg"
+                  alt=""
+                />
+                <div class="flex flex-col pb-[2rem] md:pb-[20px]">
+                  <span
+                    class="text-white text-[27px] pl-[10px] mt-[-7px] font-semibold"
+                    >Award Winner</span
+                  >
+                  <p
+                    class="text-white w-full md:w-full tracking-tight leading-[23px] text-[19px] pl-[10px]"
+                  >
+                    G2’s 2021 Best Software Awards
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="md:hidden mt-[5rem] pr-[20px] flex-1">
+              <img
+                class="w-[13rem] h-[21rem] object-cover"
+                src="images/person-with-headset.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:hidden">
+      <h1
+        class="text-[#181818] text-[43px] leading-[50px] tracking-tighter mt-[4rem] pl-[1.5rem]"
+      >
+        Sign up to hire <br />
+        talent for any job
+      </h1>
+      <button
+        class="bg-[#108A00] rounded-[50px] mb-[20px] w-[30%] text-white ml-[1.5rem] mt-[15px] font-semibold text-[17px] p-[9px]"
+      >
+        Find talent
+      </button>
+    </div>
+
+    <div
+      class="flex flex-col mt-[3rem] md:flex-row md:p-[30px] md:pb-0 md:pt-0 lg:p-[6rem] lg:pt-0 lg:pb-0"
+    >
+      <div
+        class="bg-[url('images/find-great-work.webp')] bg-cover bg-no-repeat bg-center w-full md:flex-1 md:rounded-l-lg min-h-[500px] md:min-h-[100%]"
+      ></div>
+      <div class="bg-[#1F57C3] p-3 flex-1 md:w-[50%] md:rounded-r-lg">
+        <div
+          class="p-[10px] pb-[3rem] lg:pb-[8rem] border-b border-b-white-100"
+        >
+          <p class="text-white text-[20px]">For talent</p>
+          <h1
+            class="text-white text-[48px] md:text-[60px] md:leading-[53px] leading-[47px] mt-[2rem] tracking-tight"
+          >
+            Find great <br />
+            work
+          </h1>
+          <p class="text-white text-[17px] tracking-tight mt-[1rem] lg:w-[70%]">
+            Meet clients you’re excited to work with and take your career or
+            business to new heights.
+          </p>
+        </div>
+        <div class="lg:flex">
+          <div class="flex">
+            <p
+              class="text-white text-[17px] leading-[20px] ml-[10px] w-[11rem] tracking-tight mt-[1rem]"
+            >
+              Find opportunities for every stage of your freelance career
+            </p>
+            <p
+              class="text-white text-[17px] w-[12rem] leading-[20px] ml-[2rem] lg:ml-0 tracking-tight mt-[1rem]"
+            >
+              Control when, where, and how you work
+            </p>
+          </div>
+          <div>
+            <p
+              class="text-white text-[17px] leading-[20px] tracking-tight mt-[2rem] pl-[10px] lg:pr-[1rem] lg:mt-[1rem] lg:pl-3"
+            >
+              Explore different ways to <br />
+              earn
+            </p>
+          </div>
+        </div>
+        <button
+          class="hover:bg-[#C6C6C6] w-[50%] hover:cursor-pointer transition-colors duration-20000 bg-white rounded-[50px] mb-[20px] md:w-[40%] text-[#1F57C3] ml-[5px] mt-[3rem] font-semibold text-[17px] p-[9px]"
+        >
+          Find opportunities
+        </button>
+      </div>
+    </div>
+    <h1
+      class="text-[#181818] md:text-[55px] md:pl-[2rem] text-[42px] leading-[45px] pl-[1rem] pt-[4rem] md:leading-[55px] tracking-tight mt-[6px] p-[2rem] md:pt-[5rem] lg:pl-[6rem]"
+    >
+      Trusted by leading <br />brands and startups
+    </h1>
+    <div
+      class="flex flex-col gap-[30px] lg:gap-[35px] p-[2rem] pt-[10px] pb-0 md:flex-row lg:p-[6rem] lg:pt-0 lg:pb-0"
+    >
+      <div class="bg-[#13544E] p-[1rem] pb-[30px] lg:pb-0 rounded-[10px]">
+        <div
+          class="mr-[1rem] mt-[0.5rem] flex justify-center lg:justify-start items-center"
+        >
+          <img class="w-[40%]" src="images/nasdaq-light.svg" alt="" />
+        </div>
+
+        <div class="border-b-[1px] border-b-white-100">
+          <p
+            class="text-white font-semibold text-[22px] w-[90%] leading-[23px] mt-[1.5rem] tracking-tight"
+          >
+            “Upwork enables us to differentiate ourselves from our competitors
+            and produce content at a higher caliber.”
+          </p>
+          <p class="text-[#D5E0D5] font-semibold mt-[10px] text-[17px]">
+            Josh Machiz, Chief Digital Officer
+          </p>
+          <p
+            class="text-[#D5E0D5] font-semibold mt-[5.3rem] text-[18px] pb-[0.5rem]"
+          >
+            Results
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[25px] mt-[0.5rem] text-white font-semibold tracking-tighter"
+          >
+            Emmy Winning
+          </p>
+          <p class="text-[#D5E0D5] font-semibold mt-[2px] text-[17px]">
+            Facebook Watch program
+          </p>
+          <p
+            class="text-[25px] mt-[1.5rem] text-white font-semibold tracking-tighter"
+          >
+            Millions
+          </p>
+          <p class="text-[#D5E0D5] font-semibold mt-[2px] text-[17px]">
+            of impressions generated per client per IPO
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-[#BC511B] p-[1rem] pb-0 pb-[30px] rounded-[10px]">
+        <div
+          class="mr-[1rem] flex justify-center mt-[1rem] lg:justify-start items-center"
+        >
+          <img src="images/microsoft-lg-light.svg" alt="" />
+        </div>
+
+        <div class="border-b-[1px] border-b-white-100">
+          <p
+            class="text-white font-semibold text-[22px] w-[90%] leading-[23px] mt-[1.5rem] tracking-tight"
+          >
+            “One of the advantages of utilizing freelancers is finding talent
+            with different skills quickly as our needs change.”
+          </p>
+          <p class="text-[#D5E0D5] font-semibold mt-[10px] text-[17px]">
+            Carol Taylor, Director of Content Experience
+          </p>
+          <p
+            class="text-[#D5E0D5] font-semibold mt-[5rem] lg:mt-[6rem] text-[18px] pb-[0.5rem]"
+          >
+            Results
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-[25px] mt-[0.5rem] text-white font-semibold tracking-tighter"
+          >
+            50% Faster
+          </p>
+          <p class="text-[#D5E0D5] font-semibold mt-[2px] text-[17px]">
+            Launch of projects
+          </p>
+          <p
+            class="text-[25px] mt-[1.5rem] text-white font-semibold tracking-tighter"
+          >
+            10,000
+          </p>
+          <p class="text-[#D5E0D5] font-semibold mt-[2px] text-[17px]">
+            Projects completed
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="p-[3rem] lg:ml-[2rem] md:p-[7rem] md:pb-0 md:mt-[4rem] md:pt-0 pt-0 pb-0 mt-[7rem]"
+    >
+      <div class="flex justify-bewtween">
+        <div>
+          <h1 class="text-[#181818] text-[32px] tracking-tight mt-[5rem]">
+            We support Ukraine
+          </h1>
+          <p
+            class="text-[#676767] lg:pb-[2rem] lg:w-full md:w-[60%] font-semibold text-[18px] tracking-tighter leading-[30px]"
+          >
+            We are taking action to help our freelancers, our clients, and the
+            people of Ukraine—and so can you.
+          </p>
+        </div>
+        <div
+          class="hidden md:block md:w-[17rem] lg:w-[12rem] lg:pl-[2rem] lg:ml-[10rem]"
+        >
+          <img
+            class="w-[100%] mt-[2rem] h-full"
+            src="images/ukraine-help (1).svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="flex justify-between">
+        <button
+          class="mt-[2.5rem] lg:mt-0 md:w-[25%] lg:w-[20%] border-2 border-[#108A00] rounded-[50px] h-full p-[9px] w-[45%] text-[#108A00] font-semibold text-[17px]"
+        >
+          Learn more
+        </button>
+        <div class="md:hidden mt-[2rem] w-[7rem]">
+          <img class="w-full h-full" src="images/ukraine-help (1).svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="p-[1.3rem] pb-[0] md:flex md:mt-[3rem] lg:pr-[3rem]">
+      <div class="md:w-[60%] md:pl-[1rem] lg:pl-[5rem]">
+        <p
+          class="text-[#14A800] hover:cursor-pointer font-semibold text-[25px] md:text-[34px] pb-[6px]"
+        >
+          Top skills
+        </p>
+        <p
+          class="hidden md:block hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[#D9D9D9] font-semibold text-[30px]"
+        >
+          Trending skills
+        </p>
+        <p
+          class="hidden md:block hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[#D9D9D9] font-semibold text-[30px]"
+        >
+          Top skills in US
+        </p>
+        <p
+          class="hidden md:block hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[#D9D9D9] font-semibold text-[30px]"
+        >
+          Project Catalog
+        </p>
+      </div>
+
+      <div class="flex gap-[30px] md:mt-[1rem] w-full">
+        <div class="w-full">
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Generative AI Specialists
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Data Entry Specialists
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Video Editors
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Data Analyst
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Shopify Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Ruby on Rails Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Android Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Content Writer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Copywriter
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Data Scientist
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Front-End Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Game Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Graphic Designer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            iOS Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Java Developer
+          </p>
+        </div>
+        <div class="w-full">
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            JavaScript Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Logo Designer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Mobile App Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            PHP Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Python Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Resume Writer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            SEO Expert
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Social Media Manager
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Software Developer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Software Engineer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Technical Writer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            UI Designer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            UX Designer
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Virtual Assistant
+          </p>
+          <p
+            class="text-[#676767] hover:text-[#14A800] hover:cursor-pointer transition-colors duration-20000 text-[17px] md:text-[23px] tracking-tight pb-[8px]"
+          >
+            Web Designer
+          </p>
         </div>
       </div>
     </div>
